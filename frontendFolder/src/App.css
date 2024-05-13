@@ -1,0 +1,70 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .form-container {
+    width: 40%; 
+    background-color: cyan;
+    border-radius: 10px;
+  }
+  
+  .notes-container {
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .active-notes-container{
+    background-color: cyan;
+    margin: 0 auto; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+  }
+
+  .archived-notes-container{
+    background-color: cyan;
+    margin: 0 auto; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+  }
+  
+  h1, h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .note {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .form-container {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .notes-container {
+    float: left;
+  }
+  

@@ -1,0 +1,21 @@
+{
+  "name": "challenge",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces":[
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "start-application": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\" "
+  },
+  "author": "Axel Lopez Renteria",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
