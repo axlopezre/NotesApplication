@@ -9,8 +9,8 @@
     "backend"
   ],
   "scripts": {
-    "server": "cd backend && npm start",
-    "client": "cd frontend && npm start",
+    "server": "cd backendFolder && npm start",
+    "client": "cd frontendFolder && npm start",
     "start-application": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\" "
   },
   "author": "Axel Lopez Renteria",
